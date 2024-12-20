@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youssef Samah Abdelghaffar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #0078D7;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .profile {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .profile img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 1rem;
+        }
+        .links {
+            text-align: center;
+            margin-top: 1rem;
+        }
+        .links a {
+            text-decoration: none;
+            color: white;
+            background-color: #0078D7;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            margin: 0 0.5rem;
+            display: inline-block;
+        }
+        .links a:hover {
+            background-color: #005bb5;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Youssef Samah Abdelghaffar's Website</h1>
+    </header>
+
+    <div class="container">
+        <section class="profile">
+            <img src="https://via.placeholder.com/150" alt="Profile Picture">
+            <h2>Youssef Samah Abdelghaffar</h2>
+            <p>Living in Giza, Egypt. Owner of a PUBG-focused YouTube channel.</p>
+            <div class="links">
+                <a href="https://youtube.com/@youssef_pubg7?si=RLKRuGCe2uSTcnNB" target="_blank">Visit My YouTube Channel</a>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <h2>Gallery</h2>
+            <img src="https://via.placeholder.com/400x250" alt="Channel Image 1">
+            <img src="https://via.placeholder.com/400x250" alt="Channel Image 2">
+            <img src="https://via.placeholder.com/400x250" alt="Channel Image 3">
+        </section>
+    </div>
+</body>
+</html>
+
